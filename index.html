@@ -1,0 +1,179 @@
+
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device=width,initial scale=1.0">
+    	<title>h/w project 2</title>  
+    	 <h1>Penguines</h1>                            
+   </head>
+	
+
+	<p>Penguins are aquatic, flightless birds. They lay eggs, have feathers and yet are powerful swimmers. Emperor penguins can stay underwater up to 30 minutes, in essence flying underwater. They live in the Southern Hemisphere, including Antarctica and New Zealand.</p>
+penguin.jpg
+<img src="images/penguin.jpg" alt="penguins">
+
+
+
+
+<form action="/action_page.php">
+<fieldset>
+	<legend>Information:</legend>
+	<label for="fname">First name:</label>
+	<input type="text" id="fname" name="fname"><br><br>
+	<label for="lname">Last name:</label>
+	<input type="lname" id="lname" name="lname"><br><br>
+	<label for="email">Email:</label>
+	<input type="email" name="email"><br><br>
+	<label for="birthday">Birthday:</label>
+	<input type="date" id="birthday" name="birthday"><br><br>
+	<input type="submit" value="submit">
+
+<h3>To learn more click here</h3>
+<a href="about.html">More information</a>
+
+
+
+</fieldset>
+</form>
+<figure>
+<embed type="image/jpg" src="images/images.jpg"></embed>
+
+ <figcaption>PENGUIN KIDS IN ISLAND</figcaption>
+</figure>
+
+
+
+
+<H2>Learn about penguins</H2>
+
+<p>
+	All 18 species of penguins live in the Southern Hemisphere. (See Appendix for information on distribution for each species.) Penguins are found on every continent in the Southern Hemisphere. They are abundant on many temperate and subantarctic islands.
+</p>
+
+<hr>
+
+<p>In general, flightless penguins have greater limits on foraging ranges and search capacities compared to birds that can fly. Thus to be successful, penguins must find predictable food sources within their limited foraging range. The more northernly Spheniscus penguin species, for example, are limited in distribution to primarily highly productive areas of the ocean such as upswellings and continental shelves.</p>
+
+<hr>
+
+<p>About 95% of Galápagos penguins, the most northernly of all penguin species, is found along the western coast of Isabela and around Fernandina Island by the most productive upswellings caused by the Equatorial Undercurrent (also called the Cromwell Current).
+</p>
+
+<h3>Penguins Habitat</h3>
+
+<p>The <i>Penguins</i>,generally live on islands and remote continental regions free from land predators, where their inability to fly is not detrimental to their survival.</p>
+
+<h1>The iframe element</h1>
+
+<iframe src="https://www.nationalgeographic.com/animals/birds/facts/penguins-1" title="All about penguins">
+</iframe>
+
+<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+
+<p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
+
+
+
+
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th>Savings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>January</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$80</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Sum</td>
+      <td>$180</td>
+    </tr>
+  </tfoot>
+</table>
+
+<h3>The template Element</h3>
+
+<p>Click the button below to display the hidden content from the template element.</p>
+
+<button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="images/img_white_flower.jpg" width="214" height="204">
+</template>
+
+<script>
+function showContent() {
+  var temp = document.getElementsByTagName("template")[0];
+  var clon = temp.content.cloneNode(true);
+  document.body.appendChild(clon);
+}
+
+</script><br><br>
+
+
+
+<h2>textarea tag</h2>
+
+<label for="wikipediareview">Review of Wikipedia:</label> <br><br>
+
+<textarea id="wikipediareview" name="wikireviewreview" rows="4" cols="50">
+Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation. its a great site to gain different types of knowledge.
+</textarea>
+
+<h3>u tag</h3>
+
+<p><u>eytjtdyiukuilk;po[';piptuyrtyera drgdfghtrhjtyj fghhh</u>.</p>
+
+
+<h3> ul tag</h3>
+
+
+<ul>
+  <li>Bangladesh</li>
+  <li>India</li>
+  <li>Pakistan</li>
+</ul>
+
+<h3>ver tag</h3>
+
+<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+
+<h3>wbr tag</h3>
+
+
+<p>To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</head>
